@@ -1,4 +1,4 @@
-# MonitorIQ —  Full-Stack Project 
+# MonitorIQ - An API Monitoring System 
 
 A simple, beginner-friendly version of MonitorIQ with a real backend and
 frontend talking to each other. No Docker, no database server to install -
