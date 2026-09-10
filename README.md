@@ -1,8 +1,7 @@
 # MonitorIQ - An API Monitoring System 
 
-A simple, beginner-friendly version of MonitorIQ with a real backend and
-frontend talking to each other. No Docker, no database server to install -
-the backend just uses a JSON file (`backend/db.json`) as its "database."
+A beginner-friendly MonitorIQ with a real frontend and backend connected through REST APIs, using a JSON file for simple data storage.
+
 
 ## What's in here
 
