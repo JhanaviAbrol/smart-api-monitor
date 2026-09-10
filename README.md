@@ -1,7 +1,7 @@
 # MonitorIQ —  Full-Stack Project 
 
 A simple, beginner-friendly version of MonitorIQ with a real backend and
-frontend talking to each other. No Docker, no database server to install —
+frontend talking to each other. No Docker, no database server to install -
 the backend just uses a JSON file (`backend/db.json`) as its "database."
 
 ## What's in here
@@ -9,7 +9,7 @@ the backend just uses a JSON file (`backend/db.json`) as its "database."
 ```
 monitoriq-simple/
 ├── backend/     → Node.js + Express API (see backend/README below)
-└── frontend/    → React app (plain CSS, no Bootstrap/Tailwind)
+└── frontend/    → React app 
 ```
 
 ## How it works
