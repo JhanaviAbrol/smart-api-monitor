@@ -1,4 +1,4 @@
-# MonitorIQ — Basic Full-Stack Project (Beginner Version)
+# MonitorIQ —  Full-Stack Project 
 
 A simple, beginner-friendly version of MonitorIQ with a real backend and
 frontend talking to each other. No Docker, no database server to install —
@@ -51,12 +51,3 @@ Runs on `http://localhost:5173`. Open that URL in your browser.
 6. Try adding a URL that doesn't exist (like `https://this-is-not-a-real-site-1234.com`)
    — after the next check, it'll show as "Down" and create a real Incident + Alert
 
-## Notes for your project write-up
-
-- No Docker — the backend just reads/writes a plain JSON file
-- No Spring Boot — this is Node.js + Express instead
-- No Bootstrap or Tailwind — all styling is hand-written CSS in `frontend/src/index.css`
-- The "AI" incident analysis is rule-based (see `backend/services/ai.js`), not a
-  real call to Gemini — that would need an API key
-- Email alerts aren't actually sent — they're just recorded as "Sent" in the
-  alert history, same idea as the AI analysis
